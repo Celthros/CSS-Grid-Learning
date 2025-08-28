@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass:watch": "sass --watch css/style.scss style.min.css",
-    "sass:build": "sass css/style.scss style.min.css",
-    "sass:buildmin": "sass css/style.scss style.min.css --style=compressed"
+    "sass:watch": "sass --watch src/css/style.scss style.min.css",
+    "sass:build": "sass src/css/style.scss style.min.css",
+    "sass:buildmin": "sass src/css/style.scss style.min.css --style=compressed"
   },
   "repository": {
     "type": "git",
@@ -21,9 +21,9 @@
   "author": "Celthros",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Celthros/frontend-mentor-challenge-repo/issues"
+    "url": "https://github.com/Celthros/CSS-Grid-Learning/issues"
   },
-  "homepage": "https://github.com/Celthros/frontend-mentor-challenge-repo#readme",
+  "homepage": "https://github.com/Celthros/CSS-Grid-Learning#readme",
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
