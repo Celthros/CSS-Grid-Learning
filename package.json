@@ -1,0 +1,33 @@
+{
+  "name": "frontend-mentor-challenge-repo",
+  "version": "1.0.0",
+  "description": "default start",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:watch": "sass --watch css/style.scss style.min.css",
+    "sass:build": "sass css/style.scss style.min.css",
+    "sass:buildmin": "sass css/style.scss style.min.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Celthros/frontend-mentor-challenge-repo.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "sass"
+  ],
+  "author": "Celthros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Celthros/frontend-mentor-challenge-repo/issues"
+  },
+  "homepage": "https://github.com/Celthros/frontend-mentor-challenge-repo#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.90.0"
+  }
+}
