@@ -1,0 +1,8 @@
+@use 'variables' as var;
+@use 'mixins';
+
+:root {
+  --media-mobile  : #{var.$media-mobile};
+  --media-desktop : #{var.$media-desktop};
+  --default-font  : #{var.$default-font};
+  }
