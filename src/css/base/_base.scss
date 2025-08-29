@@ -1,0 +1,6 @@
+@use '../abstract/variables' as var;
+@use '../abstract/mixins';
+
+body {
+  font-size : var(--default-font);
+  }
