@@ -4,3 +4,53 @@
 body {
   font-size : var(--default-font);
   }
+
+
+.container {
+  background-color      : #eeeeee;
+  width                 : 62.5em;
+  margin                : 1.875em auto;
+  
+  display               : grid;
+  grid-template-rows    : 150px 150px;
+  grid-template-columns : 150px 150px 150px;
+  
+  //grid-row-gap          : 1.875em;
+  //grid-column-gap          : 1.875em;
+  
+  grid-gap: 1.875em;
+  
+  }
+
+.item {
+  padding     : 1.25em;
+  font-size   : 1.875rem;
+  font-family : sans-serif;
+  color       : #ffffff;
+  
+  &--1 {
+	
+	background-color : orangered;
+	}
+  
+  &--2 {
+	background-color : yellowgreen;
+	}
+  
+  &--3 {
+	background-color : blueviolet;
+	}
+  
+  &--4 {
+	background-color : palevioletred;
+	}
+  
+  &--5 {
+	background-color : royalblue;
+	}
+  
+  &--6 {
+	background-color : goldenrod;
+	}
+	
+  }
