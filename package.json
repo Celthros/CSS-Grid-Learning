@@ -1,22 +1,21 @@
 {
-  "name": "frontend-mentor-challenge-repo",
+  "name": "css-grid-learning",
   "version": "1.0.0",
   "description": "default start",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
     "build": "vite build",
     "format": "prettier --write '**/*.{js,css,scss}'",
     "lint:js": "eslint '**/*.js'",
     "lint:css": "stylelint '**/*.{css,scss}'",
-    "sass:watch": "sass --watch css/style.scss style.min.css",
-    "sass:build": "sass css/style.scss style.min.css",
-    "sass:buildmin": "sass css/style.scss style.min.css --style=compressed"
+    "sass:watch": "sass --watch src/css/style.scss dist/assets/style.min.css",
+    "sass:build": "sass src/css/style.scss dist/assets/style.min.css",
+    "sass:buildmin": "sass src/css/style.scss dist/assets/style.min.css --style=compressed"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Celthros/frontend-mentor-challenge-repo.git"
+    "url": "git+https://github.com/Celthros/CSS-Grid-Learning.git"
   },
   "keywords": [
     "html",
@@ -30,14 +29,12 @@
     "url": "https://github.com/Celthros/CSS-Grid-Learning/issues"
   },
   "homepage": "https://github.com/Celthros/CSS-Grid-Learning#readme",
-  "dependencies": {
-  },
   "devDependencies": {
-    "sass": "^1.90.0",
-    "vite": "^7.1.3",
     "eslint": "^9.34.0",
     "normalize.css": "^8.0.1",
     "prettier": "^3.6.2",
-    "stylelint": "^16.23.1"
+    "sass": "^1.91.0",
+    "stylelint": "^16.23.1",
+    "vite": "^7.1.3"
   }
 }
